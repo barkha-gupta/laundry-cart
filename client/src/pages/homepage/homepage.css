@@ -1,0 +1,32 @@
+.side-navbar{
+    background-color: #5861AE;
+    max-width: 35px;
+    color: white;
+    padding: 20px 8px 0 5px;
+    text-align: center;
+    height: calc(98vh - 100px);
+    position: relative;
+}
+.side-navbar i{
+    font-size: 1.2rem;
+}
+.side-navbar div{
+    padding-bottom: 30px;
+}
+.side-navbar div:nth-child(3){
+    color: #5861AE;
+    background-color: white;
+    padding: 5px;
+}
+.side-navbar .logout-btn{
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+}
+.fa-right-from-bracket{
+    transition: transform 0.5s;
+}
+.logout-btn .fa-right-from-bracket:hover{
+    font-size: 1.5rem; 
+    transform: rotate(180deg);
+}
